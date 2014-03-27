@@ -5,7 +5,7 @@
 This is a couple of scripts to create a Synology Install Package wich includes the CCU-Historian software.
 The CCU-Historian is a free software to archive all values from a CCU Homematic system.
 
-## Enviorment
+## Environment
 
 * Script tested with Mac OS X
 
