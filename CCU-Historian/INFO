@@ -1,0 +1,13 @@
+package="ccu-historian"
+displayname="CCU-Historian Server"
+version="0.7.3"
+description="CCU-Historian Server for Synology x86 DS"
+arch="noarch"
+adminport="8080"
+maintainer="ccu-historian.de"
+maintainer_url="http://www.ccu-historian.de"
+distributor="Thomas Zahari"
+distributor_url="https://github.com/tzahari/CCU-Historian-for-Synology"
+checksum="f022690d73bce57dd4a39e21a28f79b0"
+install_dep_packages="JavaManager"
+

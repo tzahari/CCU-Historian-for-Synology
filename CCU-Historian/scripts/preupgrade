@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# When upgrading, we need to backup the config files first
+/bin/cp -fpR "$SYNOPKG_PKGDEST/data/" $SYNOPKG_PKGINST_TEMP_DIR
+/bin/cp -f "$SYNOPKG_PKGDEST/ccu-historian.config" $SYNOPKG_PKGINST_TEMP_DIR
+
+exit 0
