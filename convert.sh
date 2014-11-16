@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=0.7.3
+VERSION=0.7.6hf1
 URL=http://www.ccu-historian.de/uploads/CCU-Historian/ccu-historian-$VERSION-bin.zip
 TMPFILE=tmp.zip
 TMPFOLDER=tmp
@@ -20,7 +20,7 @@ unzip ../$TMPFILE
 
 #Copy Lizenz.txt
 #cp -av Lizenz.txt ../$DESTFOLDER/LICENSE
-iconv -f iso8859-1 -t utf8 Lizenz.txt > ../$DESTFOLDER/LICENSE
+iconv -f iso8859-1 -t utf-8 Lizenz.txt > ../$DESTFOLDER/LICENSE
 
 # Compress
 tar cvfz ../$DESTFILE *
