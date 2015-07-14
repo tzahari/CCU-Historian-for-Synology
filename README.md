@@ -1,5 +1,8 @@
 # CCU-Historian for Synology
 
+## Project moved to SourceForge!
+Link: https://sourceforge.net/projects/ccu-historianatsynology/
+
 ## Short description
 
 This is a couple of scripts to create a Synology Install Package wich includes the CCU-Historian software.
